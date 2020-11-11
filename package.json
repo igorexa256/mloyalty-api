@@ -3,7 +3,10 @@
     "version": "0.1.0",
     "description": "Mloyalty API client library",
     "homepage": "https://github.com/igorexa256/mloyalty-api",
-    "bugs": "https://github.com/igorexa256/mloyalty-api/issues",
+    "bugs": {
+        "url": "https://github.com/igorexa256/mloyalty-api/issues",
+        "email": "igorexa256@gmail.com"
+    },
     "source": "src/index.ts",
     "main": "dist/mloyalty-api.js",
     "scripts": {

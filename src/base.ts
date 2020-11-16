@@ -40,7 +40,7 @@ export abstract class Base {
             body: `username=${this.username}&password=${this.password}&grant_type=password`,
         })
         if (res.ok) {
-            return res.json()
+            return await res.json()
         }
         throw new Error(`${res.status} ${res.statusText}`)
     }

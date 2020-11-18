@@ -29,10 +29,10 @@ export type Poses = {
 
 export type PosFilter = {
     Operator: number
-    PartnerID: number
-    CampaignID: number
-    PosName: string
-    Client: number
-    Clientmapposition: string
-    Radius: number
+    PartnerID?: number
+    CampaignID?: number
+    PosName?: string
+    Client?: number
+    Clientmapposition?: string
+    Radius?: number
 }

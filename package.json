@@ -1,6 +1,6 @@
 {
     "name": "mloyalty-api",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Mloyalty API client library",
     "homepage": "https://github.com/igorexa256/mloyalty-api",
     "bugs": {
